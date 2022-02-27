@@ -1,0 +1,70 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("caicloud-deploy"
+ (filename . "~/code/source/go-workspace/src/github.com/caicloud/cluster-manager/README.md")
+ (front-context-string . "Cluster deploy c")
+ (rear-context-string)
+ (position . 1))
+("tool"
+ (filename . "~/code/tool/README.md")
+ (front-context-string . "## Experiment wi")
+ (rear-context-string)
+ (position . 1))
+("org"
+ (filename . "~/Org/General.org")
+ (front-context-string . "#+STARTUP: showa")
+ (rear-context-string)
+ (position . 1))
+("elisp"
+ (filename . "~/code/language/elisp/list.el")
+ (front-context-string . ";; A list is kep")
+ (rear-context-string)
+ (position . 1))
+("python"
+ (filename . "~/code/language/python/string.py")
+ (front-context-string . "# Experiment wit")
+ (rear-context-string)
+ (position . 1))
+("go"
+ (filename . "~/code/language/go/example/gopath.go")
+ (front-context-string . "// This demonstr")
+ (rear-context-string)
+ (position . 1))
+("kubernetes"
+ (filename . "~/code/source/go-workspace/src/k8s.io/kubernetes/README.md")
+ (front-context-string . "/*\nCopyright 201")
+ (rear-context-string)
+ (position . 1))
+("shell"
+ (filename . "~/code/language/shell/variables.sh")
+ (front-context-string . "#!/bin/bash\n\n\n# ")
+ (rear-context-string)
+ (position . 1))
+("install"
+ (filename . "~/.unixrc/scripts/install_ubuntu.sh")
+ (front-context-string . "#!/bin/bash\nset ")
+ (rear-context-string)
+ (position . 1))
+("modules_codegit"
+ (filename . "~/code/.gitmodules")
+ (front-context-string . "[submodule \"proj")
+ (rear-context-string)
+ (position . 1))
+("ignore_codegit"
+ (filename . "~/code/.gitignore")
+ (front-context-string . "# Structure of c")
+ (rear-context-string)
+ (position . 1))
+("zsh-config"
+ (filename . "~/.zshrc")
+ (front-context-string . "# ;;;;;;;;;;;;;;")
+ (rear-context-string)
+ (position . 1))
+("emacs_config"
+ (filename . "~/.emacs.d/init.el")
+ (front-context-string . ";;;;;;;;;;;;;;;;")
+ (rear-context-string)
+ (position . 1))
+)

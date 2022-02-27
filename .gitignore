@@ -1,0 +1,11 @@
+# files to igore
+ac-comphist.dat
+ido.last
+tramp
+smex-items
+
+# directories to ignore
+auto-save-list
+elpa
+geben
+recentf
