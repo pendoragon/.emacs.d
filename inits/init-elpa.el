@@ -6,7 +6,8 @@
 
 ;; Package archives source
 (add-to-list 'package-archives
-             '("melpa" . "https://melpa.org/packages/") t)
+;             '("melpa" . "https://melpa.org/packages/") t)
+             '("melpa" . "http://elpa.zilongshanren.com/melpa/") t)
 ;; (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/"))
 ;; 'melpa' is sufficient for the most cases, so comment out the following sources.
 ;;(add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
