@@ -30,11 +30,12 @@
 ;; (cond (*macpro15* (set-default-font "Monaco-10")))
 
 ;; Generic fonts
-(cond (*linux*  (generic-set-default-font "Inconsolata-8")))
+;; (cond (*linux*  (generic-set-default-font "Inconsolata-8"))) ;; This does not work on version > 27 since there is a emacs bug.
+(cond (*linux* (generic-set-default-font "Ubuntu Mono-10")))
 (cond (*darwin* (generic-set-default-font "Monaco-10")))
 ;; Machine specifc fonts
 (cond (*macprom1* (generic-set-default-font "Monaco-11")))
-(cond (*macpro15* (generic-set-default-font "Monaco-10")))
+;; (cond (*macpro15* (generic-set-default-font "Monaco-10")))
 
 
 (provide 'init-theme)

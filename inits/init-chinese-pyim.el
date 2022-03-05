@@ -10,11 +10,12 @@
 ;; 1. Dictionary 'pyim-bigdict' is ~20M so it is ignored; to install:
 ;;    wget http://tumashu.github.io/chinese-pyim-bigdict/pyim-bigdict.pyim -P ~/.emacs.d/pyim/dicts
 ;;------------------------------------------------------------------------------
-(require-package 'chinese-pyim)
-(require 'chinese-pyim)
+(require-package 'pyim)
+(require 'pyim)
+(require 'pyim-basedict)
+(pyim-basedict-enable)
 
-
-(setq default-input-method "chinese-pyim")
+(setq default-input-method "pyim")
 (global-set-key (kbd "C-;") 'toggle-input-method)
 
 
