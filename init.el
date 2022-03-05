@@ -10,11 +10,12 @@
 (defvar *emacs23* (= emacs-major-version 23))
 (defvar *emacs24* (= emacs-major-version 24))
 (defvar *emacs25* (= emacs-major-version 25))
+;; (defvar *emacs27* (version>emacs-version 27))
+
 ;; System name (hostname)
-(defvar *home-desktop* (string= system-name "watermelon"))
-(defvar *goog-desktop* (string= system-name "deyuan.pit.corp.google.com"))
-(defvar *macpro* (string= system-name "Deyuans-MacBook-Pro.local"))
-(defvar *macair* (string= system-name "Deyuans-MacBook-Air.local"))
+(defvar *home-desktop* (string= system-name "Mars"))
+(defvar *macprom1* (string= system-name "Sirius.local"))
+(defvar *macpro15* (string= system-name "Acturus"))
 
 
 ;;------------------------------------------------------------------------------
@@ -68,11 +69,6 @@
 
 ;; Simple mode that does not need configurations
 ;(require 'init-simple-misc-mode)
-
-;; Conditional require
-(when *goog-desktop*
-  (require 'init-google)
-  (require 'google))
 
 ;; Only install chinese-pyim in linux: we can use sougou in Mac easily.
 (when *linux*
