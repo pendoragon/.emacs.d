@@ -58,7 +58,7 @@
 (require 'init-java-mode)
 (require 'init-geben-mode)              ; debug php
 (require 'init-python-mode)
-;; (require 'init-rust-mode)
+(require 'init-rust-mode)
 ;(require 'init-protobuf-mode)
 
 ;; My custom mode, functions, etc.
