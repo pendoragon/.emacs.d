@@ -11,6 +11,7 @@
 ;;    wget http://tumashu.github.io/chinese-pyim-bigdict/pyim-bigdict.pyim -P ~/.emacs.d/pyim/dicts
 ;;------------------------------------------------------------------------------
 (require-package 'pyim)
+;(require-package 'pyim-basedict)
 (require 'pyim)
 (require 'pyim-basedict)
 (pyim-basedict-enable)

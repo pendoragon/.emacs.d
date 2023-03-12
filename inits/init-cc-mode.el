@@ -18,6 +18,7 @@
   (setq c-default-style "bsd")
   (local-set-key "\C-m" 'newline-and-indent)) ; indent next line properly
 
+(setq indent-tabs-mode t)
 (add-hook 'c-mode-hook 'cc-mode-custom-hook)
 (add-hook 'c++-mode-hook 'cc-mode-custom-hook)
 

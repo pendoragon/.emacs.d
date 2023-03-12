@@ -6,6 +6,7 @@
 (defvar *cygwin*  (eq system-type 'cygwin))
 (defvar *darwin*  (eq system-type 'darwin))
 (defvar *linux*   (or (eq system-type 'gnu/linux) (eq system-type 'linux)))
+
 ;; Emacs version
 (defvar *emacs23* (= emacs-major-version 23))
 (defvar *emacs24* (= emacs-major-version 24))
@@ -28,13 +29,11 @@
 (require 'init-elpa)                    ; init elpa managed packages
 (require 'init-exec-path-from-shell)    ; init emacs for Mac GUI
 
-
 ;;------------------------------------------------------------------------------
 ;; Load configs for features and modes
 ;;------------------------------------------------------------------------------
 ;; General mode with configurations
 (require 'init-ido)
-;(require 'init-w3m)
 (require 'init-erc)
 (require 'init-smex)
 (require 'init-tramp)
