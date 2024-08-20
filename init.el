@@ -87,9 +87,8 @@
  '(livedown:open t)
  '(livedown:port 1337)
  '(package-selected-packages
-   (quote
-    (rust-mode zenburn-theme yasnippet yaml-mode window-numbering web-mode w3m thrift tern-auto-complete smex smartparens protobuf-mode php-mode nginx-mode multi-term markdown-mode magit lua-mode js2-mode jedi jade-mode hackernews go-eldoc go-autocomplete ggtags flycheck fill-column-indicator exec-path-from-shell dockerfile-mode coffee-mode apache-mode)))
- '(send-mail-function (quote mailclient-send-it)))
+   '(rust-mode zenburn-theme yasnippet yaml-mode window-numbering web-mode w3m thrift tern-auto-complete smex smartparens protobuf-mode php-mode nginx-mode multi-term markdown-mode magit lua-mode js2-mode jedi jade-mode hackernews go-eldoc go-autocomplete ggtags flycheck fill-column-indicator exec-path-from-shell dockerfile-mode coffee-mode apache-mode))
+ '(send-mail-function 'mailclient-send-it))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
